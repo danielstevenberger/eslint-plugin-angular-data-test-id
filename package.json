@@ -1,0 +1,38 @@
+{
+  "name": "eslint-plugin-angular-data-test-id",
+  "version": "1.0.0",
+  "description": "Plugin to check for data-test-id on various elements",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc && cp src/index.js dist/ && cp package.json dist/"
+  },
+  "repository": {
+    "url": "https://github.com/danielstevenberger/eslint-plugin-angular-data-test-id"
+  },
+  "dependencies": {
+    "@angular-eslint/bundled-angular-compiler": "^13.2.1",
+    "@angular-eslint/template-parser": "^13.2.1",
+    "@angular-eslint/utils": "^13.2.1",
+    "@types/jest": "^27.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/experimental-utils": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.13.0",
+    "jest": "^27.3.1",
+    "requireindex": "^1.2.0",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0 || ^8.0.0",
+    "typescript": "*"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Daniel Berger",
+  "license": "ISC"
+}
